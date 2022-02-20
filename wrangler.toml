@@ -1,0 +1,15 @@
+name = "what-is-it-bot"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2022-02-20"
+kv_namespaces = [
+    { binding = "telegram_kv", id = "689927b3530141288fa3cf2e33b2991e", preview_id = "689927b3530141288fa3cf2e33b2991e" }
+]
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
